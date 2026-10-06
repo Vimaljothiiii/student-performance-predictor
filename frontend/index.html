@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Performance Predictor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🎓 Student Performance Predictor</h1>
+        <p>Predict whether a student will Pass or Fail</p>
+
+        <div class="form">
+
+            <label>Study Hours</label>
+            <input type="number" id="study_hours" placeholder="Example: 5">
+
+            <label>Attendance (%)</label>
+            <input type="number" id="attendance" placeholder="Example: 80">
+
+            <label>Previous Score</label>
+            <input type="number" id="previous_score" placeholder="Example: 65">
+
+            <label>Assignment Score</label>
+            <input type="number" id="assignment_score" placeholder="Example: 70">
+
+            <button onclick="predict()">Predict Performance</button>
+
+            <div id="result"></div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
